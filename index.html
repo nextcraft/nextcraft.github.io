@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  <h1 class="page-heading"> Next Craft : the entity</h1>
+  
+  <br/><br/>
+  <!-- section 1 -->
+  <span style="font-size:38px; color:#419; ">Our Projects</span>
+  
+  <p>
+    We are all about our projects. It is these projects that have a binding effect on our community. Please checkout our projects from this featured list.
+    <ul>
+    {% for page in site.pages %}
+        {% if page.category == "project" %}
+          	<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+  </p>
+  
+  <br/></hr>
+  
+  <!-- section 2 -->
+  <span style="font-size:38px; color:#914; ">Our Mission</span>
+  
+  <p>
+  	Make it possible for the ideas of our members to see the of light of day. We fashion to do this in an open source way, where the community that develops in the process, also leads the way to futher innovations and new ideas.
+  </p>
+  
+  <br/></hr>
+
+</div>

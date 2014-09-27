@@ -1,0 +1,16 @@
+# Site settings
+title: Next Craft
+email: next-craft-org@googlegroups.com
+description: > # this means to ignore newlines until "baseurl:"
+  At Next Craft we are building a learning and development group with 
+  a focus on Open Source innovation. Through our open source projects 
+  we hope to create products and services that have along with having 
+  a positive impact, also advance learning and expand opportunities for 
+  our members.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.nextcraft.org" # the base hostname & protocol for your site
+twitter_username: nextcraftorg
+github_username:  nextcraft
+
+# Build settings
+markdown: kramdown
