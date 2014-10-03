@@ -17,8 +17,13 @@ We would be working on different modules ideas for Jasper in this program. We ha
 
 On successful completion of the modules project, we would also be hosting the project details at our website. Also, once we have a substantial number of completed modules at our hand to test, we will be sponsoring the creation of a Jasper, as detailed on [Jasper][Jasper] project website. The student program as will be requiring mentorship and hence will follow a program timeline.
 
-###Run 1
+### Run 1
 Since we have limited mentorship resource at our disposal, only limited students could be supported. The exact number will depend on the number of applications received, amount of mentorship needed in each module, but an expected upper limit is of 5. 
+
+### Mentors for Run1
+1. Ashish Sharma [kartaa][mentor1]
+2. 
+
 
 ### Run 1 timeline
 
@@ -42,3 +47,4 @@ We will be updating this page with more information as it becomes available.
 [Jasper]: http://jasperproject.github.io/
 [form]: https://docs.google.com/forms/d/1lhxsq5OSpbcbhA7SgzpjrLD7OU99elFddPaTJBCbhMk/viewform?usp=send_form
 [application]: https://github.com/nextcraft/JMP/wiki/Sample-Application-%28For-JMP-Student-Program%29
+[mentor1]: https://github.com/kartaa
