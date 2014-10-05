@@ -13,8 +13,9 @@ At present, the Jasper Client is written in `Python`, so one would be required t
 
 ```
 Quick Decision Flow Chart for your aid (for students)
-[Link to flow chart][flowchart]
 ```
+[Link to flow chart][flowchart]
+
 
 In order to give a boost to our development of modules and increase our understanding of Ubiquitous and Pervasive Computing, we will be working with school students to develop Jasper modules. If you are a student who is interested in working with us, please checkout the following program details.
 
