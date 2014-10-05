@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: A Course Book Recommender
 permalink: /projects/ACBR/
 featured: "false"

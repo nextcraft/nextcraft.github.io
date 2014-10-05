@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Jasper Modules Pack
 permalink: /projects/JMP/
 featured: false
