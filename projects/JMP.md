@@ -10,6 +10,12 @@ In this project, we are developing modules for the [Jasper][Jasper] project. The
 At present, the Jasper Client is written in `Python`, so one would be required to write new modules in Python only. Making these modules for the Jasper Client is fun and easy as detailed in their documentation. You can also see an example  Coursera Public API based module we have created in [Nextcraft's JMP][JMP] at Github. 
 
 ## Student Program
+
+```
+Quick Decision Flow Chart for your aid (for students)
+[Link to flow chart][flowchart]
+```
+
 In order to give a boost to our development of modules and increase our understanding of Ubiquitous and Pervasive Computing, we will be working with school students to develop Jasper modules. If you are a student who is interested in working with us, please checkout the following program details.
 
 
@@ -48,3 +54,4 @@ We will be updating this page with more information as it becomes available.
 [form]: https://docs.google.com/forms/d/1lhxsq5OSpbcbhA7SgzpjrLD7OU99elFddPaTJBCbhMk/viewform?usp=send_form
 [application]: https://github.com/nextcraft/JMP/wiki/Sample-Application-%28For-JMP-Student-Program%29
 [mentor1]: https://github.com/kartaa
+[flowchart]: /images/Nextcraft-JMP-StudentProgram-Helper-FlowChart.png
