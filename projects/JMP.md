@@ -38,11 +38,12 @@ Since we have limited mentorship resource at our disposal, only limited students
 |---|---|---|
 | 0  | Begin learning Python language  | --  |
 | 1  | Start accepting interested students applications.  | 30th September 2014 00:00AM IST  |
-| 2  | Student application with module specification deadline.  | 10th October 2014 12:00PM IST  |
-| 3  | Application confirmation which will be mentored in JMP's first run.  | 12th October 2014 12:00PM IST  |
-| 4  | Begin work on modules with mentorship.  | 12th October 2014 12:00PM IST   |
-| 5  | Half-Term Evaluations submission deadline.  | 1st November 2014 12:00PM IST  |
-| 6  | Final Evaluations submission deadline.  | 26 November 2014 12:00PM IST  |
+| 2  | Python Primer - a tutorial on python for beginners. | 12th - 14th September 2014 IST |
+| 3  | Student application with module specification deadline.  | 14th October 2014 12:00PM IST  |
+| 4  | Application confirmation which will be mentored in JMP's first run.  | 16th October 2014 12:00PM IST  |
+| 5  | Begin work on modules with mentorship.  | 16th October 2014 12:00PM IST   |
+| 6  | Half-Term Evaluations submission deadline.  | 8th November 2014 12:00PM IST  |
+| 7  | Final Evaluations submission deadline.  | 29 November 2014 12:00PM IST  |
 
 As part of your student application, please submit an application as detailed on page [application][application].
 To show your interest in the program please fill-in the [student form][form].
