@@ -6,9 +6,13 @@ categories: nextcraft update
 ---
 
 The Google Summer of Code(GSOC) will be back in 2015. On October 6th, Google confirmed that GSOC will be happening in 2015, as explained in great detail at this blog [post][googleblog]. Here is an excerpt where they asked all of us to communicate further about it, hence the motivation of writing this post. 
-```
-Spread the word to your friends! If you know of a university student that would be interested in working on open source projects this summer, or if you know of an organization that might want to mentor students to work on their open source projects, please direct them to our Google Summer of Code 2015 website where they can find our timeline along with the FAQs. Stay tuned for more details coming soon!
-```
+
+> Spread the word to your friends! If you know of a university student that would be 
+> interested in working on open source projects this summer, or if you know of 
+> an organization that might want to mentor students to work on their open source projects, 
+> please direct them to our Google Summer of Code 2015 website where they can find 
+> our timeline along with the FAQs. Stay tuned for more details coming soon!
+
 
 With that good news we have another good news that we are expecting to mentor students in Python programming and in creating a Jasper module as a project. We believe that with this project you will be able to gain insights and they could prove valuable for your pursuit of a project at [GSOC, 2015][gsoc]. To aid that purpose we have two previous year GSOCers too in our org, [Ashish Sharma][kartaa] and [Mayank Juneja][mayankjuneja].
 
