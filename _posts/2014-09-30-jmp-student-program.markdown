@@ -13,6 +13,8 @@ In Jasper Modules Pack, we are trying to build new modules for Jasper. We hope t
 
 In addition to working on these ideas by ourselves, we are hoping to involve students into this effort. Students who are still pursuing their courses in CS/IT fields can bring a fresh bout of creativity to our efforts. So, in order to get them, involved we have this student program. Here is the facebook post announcing the start of our program.
 
+![POSTER](/images/jmp-poster.png "JMP Student Program Poster")
+
 > We are happy to announce the start of our student program in project Jasper Modules Pack (JMP). In this program we are collaborating with students interested in ubiquitous and pervasive computing (see http://en.wikipedia.org/wiki/Ubiquitous_computing) to develop modules for Jasper Project. The modules will be developed by students, in collaboration with a mentor and fellow students.
 > 
 > You ask what is Jasper? Jasper is, a distant cousin of JARVIS( of Iron Man fame) , a pervasive computing device like Siri or Google Now. It is extendable and one can build custom modules to run on top of it.

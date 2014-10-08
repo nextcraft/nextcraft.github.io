@@ -11,10 +11,11 @@ At present, the Jasper Client is written in `Python`, so one would be required t
 
 ## Student Program
 
-```
-Quick Decision Flow Chart for your aid (for students)
-```
-[Link to flow chart][flowchart]
+> 
+> Quick Decision Flow Chart for your aid is available now. (For students only)
+> 
+
+[Flow chart link][flowchart] and [Poster link][poster].
 
 
 In order to give a boost to our development of modules and increase our understanding of Ubiquitous and Pervasive Computing, we will be working with school students to develop Jasper modules. If you are a student who is interested in working with us, please checkout the following program details.
@@ -24,13 +25,11 @@ We would be working on different modules ideas for Jasper in this program. We ha
 
 On successful completion of the modules project, we would also be hosting the project details at our website. Also, once we have a substantial number of completed modules at our hand to test, we will be sponsoring the creation of a Jasper, as detailed on [Jasper][Jasper] project website. The student program as will be requiring mentorship and hence will follow a program timeline.
 
-### Run 1
-Since we have limited mentorship resource at our disposal, only limited students could be supported. The exact number will depend on the number of applications received, amount of mentorship needed in each module, but an expected upper limit is of 5. 
-
-### Mentors for Run1
+### Mentors
 1. Ashish Sharma [kartaa][mentor1]
 2. Mayank Juneja [mayankjuneja][mentor2]
 
+Since we have limited mentorship resources at our disposal, only limited students could be supported. The exact number will depend on the number of applications received, but we have kept an expected upper limit of 5. 
 
 ### Run 1 timeline
 
@@ -58,3 +57,4 @@ We will be updating this page with more information as it becomes available.
 [mentor1]: https://github.com/kartaa
 [flowchart]: /images/Nextcraft-JMP-StudentProgram-Helper-FlowChart.png
 [mentor2]: https://github.com/mayankjuneja
+[poster]: /assets/pdf/jmp-student-program-poster.pdf
