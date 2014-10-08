@@ -2,10 +2,10 @@
 layout: post
 title:  "GSOC 2015 has been confirmed!"
 date:   2014-10-08 00:04:10
-categories: nextcraft gsoc
+categories: nextcraft
 ---
 
-The Google Summer of Code(GSOC) will be back in 2015. On October 6th, Google confirmed that GSOC will be happening in 2015, as explained in great detail at this blog [post][googleblog]. Here is an excerpt where they asked all of us to communicate further about it, hence the motivation of writing this post. 
+The Google Summer of Code(GSOC) will be back in 2015. On October 6th, Google confirmed that GSOC will be happening in 2015, as explained in great detail at this blog [post][googleblog]. Here is an excerpt where they asked all of us to spread the word, hence the motivation of writing this post. 
 
 > Spread the word to your friends! If you know of a university student that would be 
 > interested in working on open source projects this summer, or if you know of 
