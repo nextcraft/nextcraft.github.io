@@ -2,10 +2,10 @@
 layout: post
 title:  "Jasper Modules Pack; Student Program"
 date:   2014-09-30 00:00:10
-categories: nextcraft update program student jmp
+categories: nextcraft jmp
 ---
 
-Ubiquitous and pervasive computing is something that might sound new, but this is a term coined more than two decades ago. Ubicomp (the acronym for Ubiquitous computing) has become a bit of a sensation lately due to the advent of mobile and the coming revolution of internet of things (or everything). Ubicomp is bringing people together from all kinds of diverse areas of computing like distributed computing, mobile computing, pervasive computing. To see what kind of work is being done in Ubicomp, checkout the papers presented recently in [Sessions][session] of Ubicomp 2013. 
+Ubiquitous and pervasive computing is something that might sound new, but this is a term coined more than two decades ago. Ubicomp (the acronym for Ubiquitous computing) has become a bit of a sensation lately due to the advent of mobile and the coming revolution of internet of things (or everything). Ubicomp is bringing people together from all kinds of diverse areas of computing like distributed computing, mobile computing, pervasive computing. To see what kind of work is being done in Ubicomp, checkout the papers presented recently in [Sessions][sessions] of Ubicomp 2013. 
 
 [Jasper project][jasper], the star of this post, can also be classified as a Ubicomp project. Visit [Jasper][jasper] to get a better introduction to it. From our persective, the more interesting thing with this project is that it makes developing applications with a Siri or Google Now like interface possible for open source developers. New apps(modules) can be developed using the fine API that Jasper exposes for creation of new modules.
 
