@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "GSOC 2015 is on!"
+date:   2014-10-08 00:30:00
+categories: nextcraft
+---
+
+Google Summer of Code (GSOC) will be back in 2015. Google confirmed, on October 6th, that GSOC will be taking place in 2015. More details at this blog [post][googleblog]. Here is an excerpt from the same post where they asked for spreading the word and confirming the event.
+
+> Spread the word to your friends! If you know of a university student that would be
+> interested in working on open source projects this summer, or if you know of 
+> an organization that might want to mentor students to work on their open source projects,
+> please direct them to our Google Summer of Code 2015 website where they can find
+> our timeline along with the FAQs. Stay tuned for more details coming soon!
+
+With that good news we have another from our side too. If you have followed us till now you might have already noticed the JMP Student Program. However, for those who are hearing about it for the first time, let me tell you that as part of JMP Student Program we are expecting to mentor students in python programming and creation of a Jasper module. We also believe that this project will help the students to gain from our experiences as well. For the student program, we have previous year GSOCers as mentors too, [Ashish Sharma][kartaa](2010) and [Mayank Juneja][mayankjuneja](2011).
+
+![POSTER](/images/jmp-poster.PNG "JMP Student Program Poster")
+
+If you are a student, we hope you will try to get a project at [GSOC 2015][gsoc] and will also come to Next Craft to contribute to our projects and learn in the process. 
+
+[googleblog]: http://google-opensource.blogspot.in/2014/10/google-summer-of-code-2015-and-google.html
+[gsoc]: http://www.google-melange.com/gsoc/homepage/google/gsoc2015
+[kartaa]: https://github.com/kartaa
+[mayankjuneja]: https://github.com/mayankjuneja
