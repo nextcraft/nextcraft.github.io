@@ -9,7 +9,7 @@ category: "project"
 In this project, we are developing modules for the [Jasper][Jasper] project. These modules although are being developed for [Jasper][Jasper] but the ideas on which they will be created will have the potential to be ported to some other Jasper like platform. 
 At present, the Jasper Client is written in `Python`, so one would be required to write new modules in Python only. Making these modules for the Jasper Client is fun and easy as detailed in their documentation. You can also see an example  Coursera Public API based module we have created in [Nextcraft's JMP][JMP] at Github. 
 
-## Student Program
+<h2 id="studentprogram"> Student Program </h2>
 
 > 
 > Quick Decision Flow Chart for your aid is available now. (For students only)
