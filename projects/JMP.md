@@ -31,18 +31,20 @@ On successful completion of the modules project, we would also be hosting the pr
 
 Since we have limited mentorship resources at our disposal, only limited students could be supported. The exact number will depend on the number of applications received, but we have kept an expected upper limit of 5. 
 
-### Run 1 timeline
+### Run 1 timeline [Extended]
+```Considering the feedback we have received, we are pushing start dates further out of weekends.
+```
 
 | Phase  | Description  | Date |
 |---|---|---|
 | 0  | Begin learning Python language  | --  |
 | 1  | Start accepting interested students applications.  | 30th September 2014 00:00AM IST  |
-| 2  | Student application with module specification deadline.  | 14th October 2014 12:00PM IST  |
-| 3  | Application confirmation which will be mentored in JMP's first run.  | 16th October 2014 12:00PM IST  |
-| 4  | Python Primer (Optional) - a tutorial on python for beginners. | 16th September 2014 IST 07:00PM IST  |
-| 5  | Begin work on modules.  | 16th October 2014 12:00PM IST   |
-| 6  | Half-term evaluation deadline.  | 8th November 2014 12:00PM IST  |
-| 7  | Final submission deadline.  | 29 November 2014 12:00PM IST  |
+| 2  | Python Primer (Optional) - a tutorial on python for beginners. (Will be available as download) | 16th October 2014 IST 10:00PM IST  |
+| 3  | Student application with module specification deadline.  | 20th October 2014 06:00AM IST  |
+| 4  | Application confirmation which will be mentored in JMP's first run.  | 20th October 2014 10:00PM IST  |
+| 5  | Begin work on modules.  | 20th October 2014 10:00PM IST   |
+| 6  | Half-term evaluation deadline.  | 12th November 2014 10:00PM IST  |
+| 7  | Final submission deadline.  | 29 November 2014 10:00PM IST  |
 
 As part of your student application, please submit an application as detailed on page [application][application].
 To show your interest in the program please fill-in the [student form][form].
