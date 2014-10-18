@@ -39,7 +39,7 @@ Since we have limited mentorship resources at our disposal, only limited student
 |---|---|---|
 | 0  | Begin learning Python language  | --  |
 | 1  | Start accepting interested students applications.  | 30th September 2014 00:00AM IST  |
-| 2  | Python Primer (Optional) - a tutorial on python for beginners. (Will be available as download) | 16th October 2014 IST 10:00PM IST  |
+| 2  | Python Primer (Optional) - a tutorial on python for beginners. ([Available to download][primer]) | 16th October 2014 IST 10:00PM IST  |
 | 3  | Student application with module specification deadline.  | 20th October 2014 06:00AM IST  |
 | 4  | Application confirmation which will be mentored in JMP's first run.  | 20th October 2014 10:00PM IST  |
 | 5  | Begin work on modules.  | 20th October 2014 10:00PM IST   |
@@ -60,3 +60,4 @@ We will be updating this page with more information as it becomes available.
 [flowchart]: /images/Nextcraft-JMP-StudentProgram-Helper-FlowChart.png
 [mentor2]: https://github.com/mayankjuneja
 [poster]: /assets/pdf/jmp-student-program-poster.pdf
+[primer]: http://www.slideshare.net/ashish424242/python-programming-everydayish-examples
