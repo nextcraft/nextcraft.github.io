@@ -32,7 +32,9 @@ On successful completion of the modules project, we would also be hosting the pr
 Since we have limited mentorship resources at our disposal, only limited students could be supported. The exact number will depend on the number of applications received, but we have kept an expected upper limit of 5. 
 
 ### Run 1 timeline [Extended]
-```Considering the feedback we have received, we are pushing start dates further out of weekends.
+```
+Please note if you are joining in late, for you the day you will submit your application will be considered the date mentioned in 3rd phase. 
+So like wise the rest of deadlines shall be revised. The last day to apply will thus become 20th November.
 ```
 
 | Phase  | Description  | Date |
@@ -44,10 +46,10 @@ Since we have limited mentorship resources at our disposal, only limited student
 | 4  | Application confirmation which will be mentored in JMP's first run.  | 20th October 2014 10:00PM IST  |
 | 5  | Begin work on modules.  | 20th October 2014 10:00PM IST   |
 | 6  | Half-term evaluation deadline.  | 12th November 2014 10:00PM IST  |
-| 7  | Final submission deadline.  | 29 November 2014 10:00PM IST  |
+| 7  | Final submission deadline.  | 30 November 2014 10:00PM IST  |
 
-As part of your student application, please submit an application as detailed on page [application][application].
-To show your interest in the program please fill-in the [student form][form].
+> As part of your student application, please submit an application as detailed on page [application][application].
+> To show your interest in the program please fill-in the [student form][form].
 
 
 We will be updating this page with more information as it becomes available.
