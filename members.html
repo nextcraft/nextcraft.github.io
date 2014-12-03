@@ -1,0 +1,26 @@
+---
+layout: default
+featured: "true"
+title: Members
+---
+
+<div class="home">
+  <!-- section 1 -->
+  <span style="font-size:38px; color:#314; ">Members</span>
+  
+  <p>
+    Here are the people who have chosen to be the part of our community.
+    <ul>
+    {% for page in site.pages %}
+        {% if page.category == "member" %}
+          	<li><img src="{{ page.image }}" height="36px" width="36px" />&nbsp;&nbsp;<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+  </p>
+  
+  <br/></hr>
+  
+  <br/></hr>
+
+</div>

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    <img style="float:right;" height="128px" width="128px" src="{{ page.image }}" alt="Profile Picture"/>
+    
+    <h6>{{ page.role }} at Nextcraft</h6>
+    
+    {{ content }}
+  </article>
+  
+  <br/>
+  <div>
+    Looking for more info, find {{ page.title }} through these links.<br/>
+
+    <a href="{{ page.twitter }}"><img title="Twitter" src="{{ site.baseurl }}/images/logo/social/twitter.svg" alt="Twitter" width="35" height="35" /></a>&nbsp;<a href="{{ page.facebook }}"><img title="Facebook" src="{{ site.baseurl }}/images/logo/social/facebook.svg" alt="Facebook" width="35" height="35" /></a>&nbsp;<a href="{{ page.linkedin }}"><img title="Linkedin" src="{{ site.baseurl }}/images/logo/social/linkedin.svg" alt="Linkedin" width="35" height="35" /></a>&nbsp;<a href="{{ page.github }}"><img title="Github" src="{{ site.baseurl }}/images/logo/social/github.svg" alt="Github" width="35" height="35" /></a>
+  </div>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'nextcraft'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</div>
