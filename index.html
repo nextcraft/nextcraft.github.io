@@ -2,34 +2,140 @@
 layout: default
 ---
 
+<section class="hero-section" aria-label="Next Craft">
+  <div class="hero-visual" aria-hidden="true">
+    <div class="hero-grid"></div>
+    <div class="hero-orb hero-orb--a"></div>
+    <div class="hero-orb hero-orb--b"></div>
+  </div>
+  <div class="hero-content">
+    <p class="hero-brand">Next Craft</p>
+    <h1 class="hero-title">Open-source AI, crafted in public.</h1>
+    <p class="hero-subtitle">
+      Next Craft is an open-source builder collective shipping agents, tools, and applied intelligence —
+      so member ideas reach daylight and stay open for the next wave of builders.
+    </p>
+    <div class="hero-cta-group">
+      <a href="#projects" class="hero-cta-primary">See our work</a>
+      <a href="{{ "/about/" | prepend: site.baseurl }}" class="hero-cta-secondary">Mission</a>
+    </div>
+  </div>
+</section>
+
 <div class="home">
-  
-  <h1 class="page-heading"> Next Craft : the entity</h1>
-  
-  <br/><br/>
-  <!-- section 1 -->
-  <span style="font-size:38px; color:#419; ">Our Projects</span>
-  
-  <p>
-    We are all about our projects. It is these projects that have a binding effect on our community. Please checkout our projects from this featured list.
-    <ul>
-    {% for page in site.pages %}
-        {% if page.category == "project" %}
-          	<li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-        {% endif %}
-    {% endfor %}
-    </ul>
-  </p>
-  
-  <br/></hr>
-  
-  <!-- section 2 -->
-  <span style="font-size:38px; color:#914; ">Our Mission</span>
-  
-  <p>
-  	Make it possible for the ideas of our members to see the of light of day. We fashion to do this in an open source way, where the community that develops in the process, also leads the way to futher innovations and new ideas.
-  </p>
-  
-  <br/></hr>
+
+  <section class="mission-section animate-on-scroll">
+    <div class="section-wrapper">
+      <p class="section-label">Who we are</p>
+      <h2 class="section-title">Ideas deserve daylight</h2>
+      <p class="mission-text">
+        Next Craft exists to make it possible for our members’ ideas to see the light of day —
+        in the open. In 2026 that means collaborative AI research, shared tooling, and
+        community-led experiments: agents that work, models you can inspect, and projects
+        that teach as they ship.
+      </p>
+      <a href="{{ "/about/" | prepend: site.baseurl }}" class="cta-button">Read the mission</a>
+    </div>
+  </section>
+
+  <section class="focus-section animate-on-scroll" id="focus">
+    <div class="section-wrapper">
+      <p class="section-label">Where we focus</p>
+      <h2 class="section-title">AI craft, not AI theater</h2>
+      <p class="section-subtitle">
+        Four lines of work that keep the collective useful in the agent era.
+      </p>
+      <ol class="focus-list">
+        <li class="focus-row animate-on-scroll" data-delay="0">
+          <span class="focus-index">01</span>
+          <div class="focus-copy">
+            <h3>Agent systems</h3>
+            <p>Autonomous and collaborative agents that reason through multi-step work — orchestrated, inspectable, and open.</p>
+          </div>
+        </li>
+        <li class="focus-row animate-on-scroll" data-delay="80">
+          <span class="focus-index">02</span>
+          <div class="focus-copy">
+            <h3>Models &amp; evaluation</h3>
+            <p>Fine-tuning, eval harnesses, and deployment paths that keep language models honest and useful in the wild.</p>
+          </div>
+        </li>
+        <li class="focus-row animate-on-scroll" data-delay="160">
+          <span class="focus-index">03</span>
+          <div class="focus-copy">
+            <h3>Developer tooling</h3>
+            <p>Frameworks and infrastructure for building, testing, and shipping AI systems without locking the community in.</p>
+          </div>
+        </li>
+        <li class="focus-row animate-on-scroll" data-delay="240">
+          <span class="focus-index">04</span>
+          <div class="focus-copy">
+            <h3>Applied &amp; cultural AI</h3>
+            <p>Intelligence put to work on real domains — from heritage scripts to research workflows — where craft meets context.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="projects-section animate-on-scroll" id="projects">
+    <div class="section-wrapper">
+      <p class="section-label">Our work</p>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">
+        Active builds and the archive that shaped the collective.
+      </p>
+
+      <div class="project-featured">
+        <a class="project-featured-link" href="https://nextcraft.github.io/takri-tools/">
+          <span class="project-featured-kicker">Featured · Live</span>
+          <span class="project-featured-title">Takri Tools</span>
+          <span class="project-featured-desc">
+            Digital instruments for the Takri script — transliteration and printable practice sheets, built for preservation and learning.
+          </span>
+        </a>
+        <a class="project-featured-link project-featured-link--ghost" href="https://github.com/nextcraft">
+          <span class="project-featured-kicker">Organization</span>
+          <span class="project-featured-title">github.com/nextcraft</span>
+          <span class="project-featured-desc">
+            Source for every Next Craft webapp. Fork, file issues, or propose the next experiment.
+          </span>
+        </a>
+      </div>
+
+      <h3 class="projects-archive-title">Project wiki</h3>
+      <ul class="projects-list">
+      {% for page in site.pages %}
+          {% if page.category == "project" %}
+            <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+  </section>
 
 </div>
+
+<script>
+(function() {
+  if (!('IntersectionObserver' in window)) {
+    document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
+      el.classList.add('visible');
+    });
+    return;
+  }
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (!entry.isIntersecting) return;
+      var el = entry.target;
+      var delay = parseInt(el.getAttribute('data-delay') || '0', 10);
+      setTimeout(function() { el.classList.add('visible'); }, delay);
+      observer.unobserve(el);
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
+    observer.observe(el);
+  });
+})();
+</script>
