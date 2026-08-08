@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Takri Copy Studio: A copy bench for design tools that forget the script"
-date:   2026-08-08 15:30:00
+date:   2026-08-08 15:30:00 +0530
 categories: nextcraft
 ---
 

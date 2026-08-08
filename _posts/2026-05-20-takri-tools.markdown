@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Takri Tools: Putting a living script back on the keyboard"
-date:   2026-05-20 10:00:00
+date:   2026-05-20 10:00:00 +0530
 categories: nextcraft
 ---
 
