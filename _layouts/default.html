@@ -11,6 +11,10 @@
 
     {% include footer.html %}
 
+    {% if page.url == "/" %}
+    <script src="{{ "/assets/js/home.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+
   </body>
 
 </html>

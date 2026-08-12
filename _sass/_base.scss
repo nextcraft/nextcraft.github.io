@@ -69,11 +69,11 @@ a {
     transition: color 0.2s ease;
 
     &:visited {
-        color: #a84c1f;
+        color: #0b737c;
     }
 
     &:hover {
-        color: #8f4019;
+        color: #086870;
         text-decoration: none;
     }
 }
@@ -101,16 +101,16 @@ pre, code {
 
 code {
     padding: 2px 6px;
-    background: #f1f5f9;
-    color: $brand-color;
+    background: #e8f4f6;
+    color: #0b5f68;
     border: 1px solid $grey-color-light;
 }
 
 pre {
     padding: 20px 24px;
     overflow-x: auto;
-    background: #0f172a;
-    color: #e2e8f0;
+    background: $ink;
+    color: #e8f1fb;
     border: none;
 
     > code {

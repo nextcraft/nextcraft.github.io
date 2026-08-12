@@ -4,11 +4,20 @@ layout: default
 
 <section class="hero-section" aria-label="Next Craft">
   <div class="hero-visual" aria-hidden="true">
+    <canvas class="hero-field" id="neural-field"></canvas>
     <div class="hero-grid"></div>
     <div class="hero-orb hero-orb--a"></div>
     <div class="hero-orb hero-orb--b"></div>
+    <div class="hero-scan"></div>
+    <div class="hero-core">
+      <div class="hero-ring"></div>
+      <div class="hero-ring hero-ring--2"></div>
+      <div class="hero-ring hero-ring--3"></div>
+      <div class="hero-core-dot"></div>
+    </div>
   </div>
   <div class="hero-content">
+    <p class="hero-status"><span class="status-dot" aria-hidden="true"></span> Live signal · Ready for the agent era</p>
     <p class="hero-brand">Next Craft</p>
     <h1 class="hero-title">Open-source AI, crafted in public.</h1>
     <p class="hero-subtitle">
@@ -18,6 +27,22 @@ layout: default
     <div class="hero-cta-group">
       <a href="#projects" class="hero-cta-primary">See our work</a>
       <a href="{{ "/about/" | prepend: site.baseurl }}" class="hero-cta-secondary">Mission</a>
+    </div>
+  </div>
+  <div class="hero-ticker" aria-hidden="true">
+    <div class="hero-ticker-track">
+      <span>Agent systems</span>
+      <span>Models &amp; evaluation</span>
+      <span>Builder tooling</span>
+      <span>Applied &amp; cultural AI</span>
+      <span>Open source</span>
+      <span>Built in public</span>
+      <span>Agent systems</span>
+      <span>Models &amp; evaluation</span>
+      <span>Builder tooling</span>
+      <span>Applied &amp; cultural AI</span>
+      <span>Open source</span>
+      <span>Built in public</span>
     </div>
   </div>
 </section>
@@ -63,7 +88,7 @@ layout: default
         <li class="focus-row animate-on-scroll" data-delay="160">
           <span class="focus-index">03</span>
           <div class="focus-copy">
-            <h3>Developer tooling</h3>
+            <h3>Builder tooling</h3>
             <p>Frameworks and infrastructure for building, testing, and shipping AI systems without locking the community in.</p>
           </div>
         </li>
@@ -115,27 +140,3 @@ layout: default
   </section>
 
 </div>
-
-<script>
-(function() {
-  if (!('IntersectionObserver' in window)) {
-    document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
-      el.classList.add('visible');
-    });
-    return;
-  }
-  var observer = new IntersectionObserver(function(entries) {
-    entries.forEach(function(entry) {
-      if (!entry.isIntersecting) return;
-      var el = entry.target;
-      var delay = parseInt(el.getAttribute('data-delay') || '0', 10);
-      setTimeout(function() { el.classList.add('visible'); }, delay);
-      observer.unobserve(el);
-    });
-  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
-
-  document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
-    observer.observe(el);
-  });
-})();
-</script>
