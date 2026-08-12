@@ -12,6 +12,10 @@ category: "project"
 
 - **Transliterator** — Roman input to Devanagari and Takri side by side (Aksharamukha API + offline engine)
 - **Practice Sheets** — printable PDF worksheets for learning Takri characters
+- **Character Reference** — browse and copy the full Takri Unicode block
+- **Copy Studio** — compose and hand off Takri text for design tools
+- **Takri Reader** — read Takri with Roman and Devanagari support
+- **Takri Snap** — swipe / pick game for letter recognition (Blitz and Flow modes)
 
 ### Links
 
