@@ -5,10 +5,10 @@
 
 
 
-// Craft / 2026 tokens — ink + copper, not purple-AI defaults
-$base-font-family: 'Manrope', 'Segoe UI', Helvetica, Arial, sans-serif;
-$display-font-family: 'Syne', 'Manrope', sans-serif;
-$mono-font-family: 'IBM Plex Mono', 'SF Mono', Consolas, monospace;
+// Craft / 2026 tokens — luminous AI studio (navy + cyan, high contrast)
+$base-font-family: 'Source Sans 3', 'Segoe UI', Helvetica, Arial, sans-serif;
+$display-font-family: 'Outfit', 'Source Sans 3', sans-serif;
+$mono-font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
 $takri-font-family: 'Noto Sans Takri', 'Noto Sans', sans-serif;
 $base-font-size:   17px;
 $small-font-size:  $base-font-size * 0.875;
@@ -16,18 +16,21 @@ $base-line-height: 1.65;
 
 $spacing-unit:     40px;
 
-$text-color:       #12161c;
-$text-color-muted: #5c6675;
-$background-color: #f4f5f7;
-$brand-color:      #c45c26;
-$brand-color-2:    #1f6f6a;
-$brand-color-3:    #d4a017;
-$ink:              #0a0e14;
+$text-color:       #10233d;
+$text-color-muted: #3d5673;
+$background-color: #eef4fb;
+$brand-color:      #0e8f9a;
+$brand-color-2:    #4f6ef7;
+$brand-color-3:    #12c4b0;
+$ink:              #10243d;
 $paper:            #ffffff;
+$hero-bg:          #143056;
+$hero-text:        #f7fbff;
+$hero-muted:       #d5e6f6;
 
-$grey-color:       #4a5563;
-$grey-color-light: #dde1e7;
-$grey-color-dark:  #0a0e14;
+$grey-color:       #4a627c;
+$grey-color-light: #d5e0ee;
+$grey-color-dark:  #10233d;
 
 $on-palm:          600px;
 $on-laptop:        900px;
